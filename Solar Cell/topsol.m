@@ -83,10 +83,10 @@ global evec2d;
 [Emin, E0] = cellprop(1, 1);
 
 %% Experimental IV-characteristics (obtained from TNO Eindhoven)
-jL = 35.3; %65; %353;       %Photoillumination current at zero shading (in mA/cm2)
-j0 = -0.00029; %-0.7158; %-0.0029;     %reverse bias current (in mA/cm2)
-beta = 19.31; %8.038; %19.31;    %describes the p-n junction properties
-Uref = 0.68; % 0.7;%0.68;     %fixed voltage for testing
+jL = 310; %65; %353;       %Photoillumination current at zero shading (in mA/cm2)
+j0 = -0.006; %-0.7158; %-0.0029;     %reverse bias current (in mA/cm2)
+beta = 16.34; %8.038; %19.31;    %describes the p-n junction properties
+Uref = 0.7; % 0.7;%0.68;     %fixed voltage for testing
 s_Vbus = 0.7;  %factor that defines Vbus as a function of Uref
 Vbus = Uref * s_Vbus;   %voltage for fixed points in the space
 
