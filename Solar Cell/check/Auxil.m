@@ -23,7 +23,7 @@ function Auxil(nelx, nely, volfrac, penal, rmin, ft)
  elh = Lx/nelx;                  % element size
  Ly = nely*elh;                  % Length in y-direction
  elA = elh^2; 
- disp(elA);
+ %disp(elA);
  ewidth = 10;
  [evec, evec2d] = create_electrode(ewidth, nrofe, nely);
  phi = compute_shape_fn();       %U*phi gives voltages....
@@ -60,7 +60,7 @@ function Auxil(nelx, nely, volfrac, penal, rmin, ft)
   end
   
   Edist = Emin+xPhys(:)'.^penal*(E0-Emin);
-  #Edist(noelems) = 1e-6;
+  %Edist(noelems) = 1e-6;
   sK = reshape(KE(:)*(Edist),16*nelx*nely,1);NRiter = 0;
   Qnorm = norm(Q);
   
