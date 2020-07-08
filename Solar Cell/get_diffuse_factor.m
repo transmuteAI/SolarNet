@@ -13,4 +13,6 @@ diffuse_factor =  1 + ( 40*(diffuse_factor ./ dmax));
 %diffuse_factor(nelx/2 * nely +1 : nelx*nely) = 1;
 %diffuse_factor(1: nelx/2 * nely) = 1;
 
+diffuse_factor(:) = 1;
+
 end

@@ -30,9 +30,9 @@ if nargin > 6
     disp('Wrong no. of inputs');
     exit();
 elseif nargin == 0
-    nelx = 299;
-    nely = 299;
-    volfrac = 1;
+    nelx = 100;
+    nely = 100;
+    volfrac = 0.4;
     penal = 3.0;
     rmin = 1.5;
     ft = 2;
@@ -59,6 +59,8 @@ elseif nargin == 5
 end
 penalS = 3.0; %penalty factor for shading
 disp('START');
+
+warning('off','all');
 
 %% CLUSTER RELATED PARAMETERS
 cluster = 0;    % control parameter for whether the cluster is used or not
@@ -198,7 +200,7 @@ x = initial_design(nelx, nely, elec, 0.4, evec);
 % x(x > 0.5) = 0.9;
 %x = 0.1 + 0.8 * rand(660, 504);
 %x = load('density.dat', '-ascii');
-imagesc(x);
+%imagesc(x);
 
 %% Getting the sun concentration
 sunFactor = get_sunFactor(0, nely, nelx);
@@ -266,8 +268,6 @@ while change > changemin && loop < maxiter
     
 % %Adapting penal and penlS
 %   [penal, penalS] = update_penalization(penalmax, loop, maxiter);
-  penal
-  penalS
 
   loop = loop + 1;
   Hbetaloop = Hbetaloop + 1;
@@ -345,7 +345,7 @@ while change > changemin && loop < maxiter
     edofMat, phi, U, loop, jecorrect, diffuse_factor);
      
     for i=1:size(edofMat,1)
-    Q(edofMat(i,:))=Q(edofMat(i,:))+je(i)*Qvec;
+      Q(edofMat(i,:))=Q(edofMat(i,:))+je(i)*Qvec;
     end  
   end  
   
@@ -357,7 +357,7 @@ while change > changemin && loop < maxiter
   %% computing dQfdvf and dQfdvp
 
   if senscheck1 == 1
-    fdsens = (fd(2) - fd(1))/(2*perturb)
+    fdsens = (fd(2) - fd(1))/(2*perturb);
   end  
   
 %   if loop == 201
@@ -465,7 +465,7 @@ end
   Pe_eff = je*Vbus*elA; % Contribution to total power // Effective power
   Pe_loss = Pe-Pe_eff;                % Power loss
   Eff = ((P/(Lx*Ly*area_factor * 1))/1000)*100;
-   Vbushist(loop) = Vbus;
+  Vbushist(loop) = Vbus;
   objhist(loop) = Eff;
   volhist(loop)=mean(xPhys(:));
   Vavghist(loop) = sum(U)/length(U);
