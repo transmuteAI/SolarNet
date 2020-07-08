@@ -48,7 +48,7 @@ function Auxil(nelx, nely, volfrac, penal, rmin, ft)
  freedofs = setdiff(freedofs, nodofs);
  x = initial_design(nelx, nely, elec, 0.4, evec);
  %magesc(x);
- xPhys = 1 - exp(x) + x*exp(-1);
+ xPhys = x; %1 - exp(x) + x*exp(-1);
  Vavg = .25*sum(U(edofMat),2);
  %magesc(xPhys)
  Xs = 1-reshape(xPhys,nelx*nely,1);
@@ -107,6 +107,8 @@ function Auxil(nelx, nely, volfrac, penal, rmin, ft)
     Q(edofMat(i,:))=Q(edofMat(i,:))+je(i)*Qvec;
     end  
   end 
+  # Below, elA and Vbus seem ok, this means that the value of current is very high
+  max_je = max(je)
   P = sum(elA*je)*Vbus              % Power of the cell = sum of all currents*voltage
   Pe = je.*Vavg*elA;    % Local Power
   Pe_eff = je*Vbus*elA; % Contribution to total power // Effective power

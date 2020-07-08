@@ -22,10 +22,9 @@ else
     end
 end
 
-%if loop > 0
-     %disp(['Highest voltage found during iteration: ' num2str(max(U)) ]) 
-     %disp(['Lowest current found during iteration: ' num2str(min(je)) ]) 
-%end
+
+disp(['Highest voltage found during iteration: ' num2str(max(U)) ]) 
+disp(['Lowest current found during iteration: ' num2str(min(je)) ]) 
 je_check = je < (-jL);
 
 if any(je_check)
