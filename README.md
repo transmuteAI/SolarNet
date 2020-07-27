@@ -11,6 +11,10 @@ Solar Cell Metallization problem is a non-linear optimization task. It can be fo
 
 We have tried to reparameterize the domain of variables to be optimized. We have employed a Convolutional Neural Network (CNN) , to output the density variables. Here, we try to optimize the weights and the biases of the CNN , to produce such values of density variables that will give us maximum efficiency (minimum loss).
 
- 
-   ![Test Image1](https://github.com/BhattacharyaSumit/deeptop_sol/blob/master/Figs/Screenshot%20from%202020-07-26%2012-04-00.png)  
+This is a schematic diagram of our optimization process
+
+   ---------------------------------------------------------------------------------------> Forward Pass
+   
+   ![Test Image1](https://github.com/BhattacharyaSumit/deeptop_sol/blob/master/Figs/Screenshot%20from%202020-07-26%2012-04-00.png)     ![test 2](https://github.com/BhattacharyaSumit/deeptop_sol/blob/master/Figs/Screenshot%20from%202020-07-26%2012-34-36.png)
+    <---------------------------------------------------------------------------------------------------Gradients
 
