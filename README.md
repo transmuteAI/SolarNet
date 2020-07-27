@@ -13,8 +13,8 @@ We have tried to reparameterize the domain of variables to be optimized. We have
 
 This is a schematic diagram of our optimization process
 
-   **---------------------------------------------------------------------------------------> Forward Pass**
+   **-------------------------------------------------------------------------------------> Forward Pass**
    
-   ![Test Image1](https://github.com/BhattacharyaSumit/deeptop_sol/blob/master/Figs/Screenshot%20from%202020-07-26%2012-04-00.png)     ![test 2](https://github.com/BhattacharyaSumit/deeptop_sol/blob/master/Figs/Screenshot%20from%202020-07-26%2012-34-36.png)
-    **<---------------------------------------------------------------------------------------------------Gradients**
+ ![Test Image1](https://github.com/BhattacharyaSumit/deeptop_sol/blob/master/Figs/Screenshot%20from%202020-07-26%2012-04-00.png)      ![test 2](https://github.com/BhattacharyaSumit/deeptop_sol/blob/master/Figs/Screenshot%20from%202020-07-26%2012-34-36.png)
+                   **<---------------------------------------------------------------------------------------------------Gradients**
 
