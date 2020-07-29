@@ -18,9 +18,9 @@ This is a schematic diagram of our optimization process
    ![Test Image1](https://github.com/BhattacharyaSumit/deeptop_sol/blob/master/Figs/Flow.png)
    
    
-   #### Experiments 
+   #### Experiments and Resutls
    We standardized 4 sets of configurations of a Solar Cell with different settings and compared the performance of MMA and CNN (with LBFGS optimizer) on each.
-   
+   We also investigated the effect of Grid Resolution, Filter Radius and Cell Size.
      Type 1 - Vbus at the left edge of the cell
      Type 2 - Vbus at 4 corners of the cell
      Type 3 - Vbus at the centre of the cell
@@ -42,3 +42,10 @@ This is a schematic diagram of our optimization process
     <td valign="top"><img src="Figs/4c.png", width=200, height=200></td>
   </tr>
  </table>
+ 
+   Efficiency percentage obatained for a set of designs ( radius of filter = 1.5 element width , grid resolution 200x200 , cell size = 1.5cm x 1.5cm, Vbus =0.50)
+ 
+ | Optimizer | Type 1 | Type 2 | Type 3 | Type 4 |
+ |-----------|--------|--------|--------|--------|
+ |   MMA     | 12.20  |  12.05 |  11.98 | 12.55  |
+ |   CNN     | 12.34  |  12.47 |  12.25 | 12.64  |
