@@ -54,4 +54,4 @@ This is a schematic diagram of our optimization process
  |   MMA     | 12.20  |  12.05 |  11.98 | 12.55  |
  |   CNN     | 12.34  |  12.47 |  12.25 | 12.64  |
   
-   These efficiency values are obtained by converting the designs to complete black and white image ( 0 representing no electrode and 1 representing presence of electrode). The CNN designs tend to have less grayness compared to the MMA counterparts. So, the actual efficiency values of the CNN designs are higher than those of MMA.
+   These efficiency values are obtained by converting the designs to complete black and white image ( 0 representing no electrode and 1 representing presence of electrode) with a threshold of 0.02. The CNN designs tend to have less grayness compared to the MMA counterparts. So, the actual efficiency values of the CNN designs are higher than those of MMA.
