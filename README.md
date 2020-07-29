@@ -7,9 +7,9 @@ Topology Optimization has been a very popular method for optimizing physical str
 
 
 #### Method
-Solar Cell Metallization problem is a non-linear optimization task. It can be formulated as a minimization task ,with density variable lying between 0 and 1, and no volume constraint. Those densities are then used to compute the loss ( in our case, the loss is negative of output power), which required to be minimized. Conventionally, the density variables are optimized using algorithms like MMA and OC. 
+Solar Cell Metallization problem is a non-linear optimization task. It can be formulated as a minimization task ,with density variable lying between 0 and 1, and no volume constraint. Those densities are then used to compute the loss ( in our case, the loss is negative of output power), which is required to be minimized. Conventionally, the density variables are optimized using algorithms like Method of Moving Asymptote(MMA) and Optimality Criteria(OC). 
 
-We have tried to reparameterize the domain of variables to be optimized. We have employed a Convolutional Neural Network (CNN) , to output the density variables. Here, we try to optimize the weights and the biases of the CNN , to produce such values of density variables that will give us maximum efficiency (minimum loss).
+We have tried to reparameterize the domain of variables to be optimized. For this, we employed a Convolutional Neural Network (CNN) , to output the density variables. Here, we try to optimize the weights and the biases of the CNN , to produce such values of density variables that will give us maximum efficiency (minimum loss).
 
 This is a schematic diagram of our optimization process
 
