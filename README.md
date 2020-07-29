@@ -68,6 +68,5 @@ This is a schematic diagram of our optimization process
 
 #### Useful Links
 - Refer ![dkgupta90/topsol](https://github.com/dkgupta90/topsol) for Matlab implementation of TO for Solar Cell Metallization
-- Refer ![ google-research /
-neural-structural-optimization ](https://github.com/google-research/neural-structural-optimization) for CNN Reparameterization to solve linear problems like Structural Optimization
+- Refer ![ google-research/neural-structural-optimization ](https://github.com/google-research/neural-structural-optimization) for CNN Reparameterization to solve linear problems like Structural Optimization
  
