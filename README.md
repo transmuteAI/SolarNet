@@ -22,7 +22,7 @@ This is a schematic diagram of our optimization process
    ![Test Image1](https://github.com/BhattacharyaSumit/deeptop_sol/blob/master/Figs/Flow.png)
    
    
-   #### Experiments and Resutls
+#### Experiments and Resutls
    We standardized 4 sets of configurations of a Solar Cell with different settings and compared the performance of MMA and CNN (with LBFGS optimizer) on each.
    We also investigated the effect of Grid Resolution, Filter Radius and Cell Size.
      Type 1 - Vbus at the left edge of the cell
@@ -63,4 +63,11 @@ This is a schematic diagram of our optimization process
 - Numpy
 - Scipy
 - Typing
+- Tensorflow 2.0
 - Xarray
+
+#### Useful Links
+- Refer ![dkgupta90/topsol](https://github.com/dkgupta90/topsol) for Matlab implementation of TO for Solar Cell Metallization
+- Refer ![ google-research /
+neural-structural-optimization ](https://github.com/google-research/neural-structural-optimization) for CNN Reparameterization to solve linear problems like Structural Optimization
+ 
