@@ -26,3 +26,19 @@ This is a schematic diagram of our optimization process
      Type 3 - Vbus at the centre of the cell
      Type 4 - Vbus at a portion of the left edge
 
+<table>
+  <tr>
+     <td>MMA</td>
+    <td valign="top"><img src="Figs/1m.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/2m.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/3m.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/4m.png", width=200, height=200></td>
+  </tr>
+   <tr>
+      <td>CNN</td>
+    <td valign="top"><img src="Figs/1c.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/2c.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/3c.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/4c.png", width=200, height=200></td>
+  </tr>
+ </table>
