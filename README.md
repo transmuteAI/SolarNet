@@ -66,10 +66,10 @@ This is a schematic diagram of our optimization process
  
    Efficiency percentage obtained for a set of designs ( radius of filter = 1.5 element width , grid resolution 200x200 , cell size = 1.5cm x 1.5cm, Vbus =0.50)
  
- | Optimizer | Type 1 | Type 2 | Type 3 | Type 4 |
- |-----------|--------|--------|--------|--------|
- |   MMA     | 12.20  |  12.05 |  11.98 | 12.55  |
- |   CNN     | 12.34  |  12.47 |  12.25 | 12.64  |
+ | Optimizer | Type 1 | Type 2 | Type 3 | Type 4 |  Type 5 |
+ |-----------|--------|--------|--------|--------| --------|
+ |   MMA     | 12.20  |  12.05 |  11.98 | 12.55  |  12.31  |
+ |   CNN     | 12.34  |  12.47 |  12.25 | 12.64  |  12.67  |
   
    These efficiency values are obtained by converting the designs to complete black and white image ( 0 representing no electrode and 1 representing presence of electrode) with a threshold of 0.02. The CNN designs tend to have less grayness compared to the MMA counterparts. So, the overall efficiency values of the CNN designs are higher than those of MMA post processing.
    
