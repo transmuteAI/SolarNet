@@ -34,6 +34,8 @@ This is a schematic diagram of our optimization process
      
      Type 4 : Vbus at a portion of the left edge
      
+     Type 5 : Vbus at 3 corners of a triangular frame
+     
 
 <table>
    <tr>
@@ -42,6 +44,7 @@ This is a schematic diagram of our optimization process
       <td> Type 2 </td>
       <td> Type 3 </td>
       <td> Type 4 </td>
+      <td> Type 5 </td>
    </tr>
   <tr>
      <td>MMA</td>
@@ -49,6 +52,7 @@ This is a schematic diagram of our optimization process
     <td valign="top"><img src="Figs/2m_new.png", width=200, height=200></td>
     <td valign="top"><img src="Figs/3m_new.png", width=200, height=200></td>
     <td valign="top"><img src="Figs/4m_new.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/MMA_tril.png", width=200, height=200></td>
   </tr>
    <tr>
       <td>CNN</td>
@@ -56,6 +60,7 @@ This is a schematic diagram of our optimization process
     <td valign="top"><img src="Figs/2c_new.png", width=200, height=200></td>
     <td valign="top"><img src="Figs/3c_new.png", width=200, height=200></td>
     <td valign="top"><img src="Figs/4c_new.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/CNN_tril.png", width=200, height=200></td>
   </tr>
  </table>
  
