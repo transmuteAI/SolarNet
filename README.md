@@ -59,7 +59,7 @@ This is a schematic diagram of our optimization process
   </tr>
  </table>
  
-   Efficiency percentage obatained for a set of designs ( radius of filter = 1.5 element width , grid resolution 200x200 , cell size = 1.5cm x 1.5cm, Vbus =0.50)
+   Efficiency percentage obtained for a set of designs ( radius of filter = 1.5 element width , grid resolution 200x200 , cell size = 1.5cm x 1.5cm, Vbus =0.50)
  
  | Optimizer | Type 1 | Type 2 | Type 3 | Type 4 |
  |-----------|--------|--------|--------|--------|
