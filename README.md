@@ -19,7 +19,7 @@ This is a schematic diagram of our optimization process
 
    
    
-   ![Test Image1](https://github.com/BhattacharyaSumit/deeptop_sol/blob/master/Figs/Flow.pdf)
+   ![Test Image1](https://github.com/BhattacharyaSumit/deeptop/blob/master/Figs/Flow.pdf)
    
    
 #### Experiments and Resutls
