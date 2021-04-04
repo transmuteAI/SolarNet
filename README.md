@@ -13,7 +13,7 @@ This project is an adaptation of their paper and is an extension of their work i
 ## Method
 Solar Cell Metallization problem is a non-linear optimization task. It can be formulated as a minimization task ,with density variable lying between 0 and 1, and no volume constraint. Those densities are then used to compute the loss ( in our case, the loss is negative of output power), which is required to be minimized. Conventionally, the density variables are optimized using algorithms like Method of Moving Asymptote(MMA) and Optimality Criteria(OC). 
 
-We have tried to reparameterize the domain of variables to be optimized. For this, we employed a Convolutional Neural Network (CNN) , to output the density variables. Here, we try to optimize the weights and the biases of the CNN , to produce such values of density variables that will give us maximum efficiency (minimum loss).
+We have tried to reparameterize the domain of variables to be optimized. For this, we employed a Convolutional Neural Network (CNN) , to  obtain  density variables as output. Here, we try to optimize the weights and the biases of the CNN , to produce such values of density variables that will give us maximum efficiency (minimum loss).
 
 This is a schematic diagram of our optimization process
 
@@ -25,10 +25,10 @@ This is a schematic diagram of our optimization process
 ## Experiments and Resutls
    We standardized 4 sets of configurations of a Solar Cell with different settings and compared the performance of MMA and CNN (with LBFGS optimizer) on each.
    We also investigated the effect of Grid Resolution, Filter Radius and Cell Size.
-     Type 1 - Vbus at the left edge of the cell
-     Type 2 - Vbus at 4 corners of the cell
-     Type 3 - Vbus at the centre of the cell
-     Type 4 - Vbus at a portion of the left edge
+     --  Type 1 - Vbus at the left edge of the cell
+     --  Type 2 - Vbus at 4 corners of the cell
+     --  Type 3 - Vbus at the centre of the cell
+     --  Type 4 - Vbus at a portion of the left edge
 
 <table>
   <tr>
@@ -54,7 +54,7 @@ This is a schematic diagram of our optimization process
  |   MMA     | 12.20  |  12.05 |  11.98 | 12.55  |
  |   CNN     | 12.34  |  12.47 |  12.25 | 12.64  |
   
-   These efficiency values are obtained by converting the designs to complete black and white image ( 0 representing no electrode and 1 representing presence of electrode) with a threshold of 0.02. The CNN designs tend to have less grayness compared to the MMA counterparts. So, the actual efficiency values of the CNN designs are higher than those of MMA post processing.
+   These efficiency values are obtained by converting the designs to complete black and white image ( 0 representing no electrode and 1 representing presence of electrode) with a threshold of 0.02. The CNN designs tend to have less grayness compared to the MMA counterparts. So, the overall efficiency values of the CNN designs are higher than those of MMA post processing.
    
 ## Libraries Used
 - Autograd
