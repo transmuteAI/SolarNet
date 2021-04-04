@@ -48,19 +48,19 @@ This is a schematic diagram of our optimization process
    </tr>
   <tr>
      <td>MMA</td>
-    <td valign="top"><img src="Figs/1m_new.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/2m_new.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/3m_new.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/4m_new.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/MMA_tril.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/1m_new.png", width=200, height=150></td>
+    <td valign="top"><img src="Figs/2m_new.png", width=200, height=150></td>
+    <td valign="top"><img src="Figs/3m_new.png", width=200, height=150></td>
+    <td valign="top"><img src="Figs/4m_new.png", width=200, height=150></td>
+    <td valign="top"><img src="Figs/MMA_tril_new.png", width=200, height=150></td>
   </tr>
    <tr>
       <td>CNN</td>
-    <td valign="top"><img src="Figs/1c_new.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/2c_new.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/3c_new.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/4c_new.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/CNN_tril.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/1c_new.png", width=200, height=150></td>
+    <td valign="top"><img src="Figs/2c_new.png", width=200, height=150></td>
+    <td valign="top"><img src="Figs/3c_new.png", width=200, height=150></td>
+    <td valign="top"><img src="Figs/4c_new.png", width=200, height=150></td>
+    <td valign="top"><img src="Figs/CNN_tril_new.png", width=200, height=150></td>
   </tr>
  </table>
  
