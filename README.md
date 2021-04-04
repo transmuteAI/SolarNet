@@ -33,17 +33,17 @@ This is a schematic diagram of our optimization process
 <table>
   <tr>
      <td>MMA</td>
-    <td valign="top"><img src="Figs/1m.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/2m.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/3m.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/4m.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/1m_new.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/2m_new.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/3m_new.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/4m_new.png", width=200, height=200></td>
   </tr>
    <tr>
       <td>CNN</td>
-    <td valign="top"><img src="Figs/1c.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/2c.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/3c.png", width=200, height=200></td>
-    <td valign="top"><img src="Figs/4c.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/1c_new.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/2c_new.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/3c_new.png", width=200, height=200></td>
+    <td valign="top"><img src="Figs/4c_new.png", width=200, height=200></td>
   </tr>
  </table>
  
