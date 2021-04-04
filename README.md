@@ -6,7 +6,7 @@
 Topology Optimization (TO) has been a very popular method for optimizing physical structures. This has also been extended to the domains of Heat Flow and Solar Cell design problems. But, the performance is dependent on proper selection of parameters to be optimized. Better designs with better performance have been obtained with the use of Deep Learning in structural optimization. Metallization designs for Solar Cells obtained by topology optimization tend to give good efficiency. However,very limited use of deep learning has been made in optimizing Solar Cell metallization patterns. Here, we present the use of Convolutional Neural Networks (CNN) without any training data to obtain more robust and efficient designs.
 
 ## Motivation
-Recent works have shown that TO has been successfully applied to find optimal metallization of solar cells to improve thier performance. Another ![work](https://github.com/google-research/neural-structural-optimization) demonstrated the successful use of CNN to obtain better designs for Structural Optimization.
+Recent works have shown that TO has been successfully applied to find optimal metallization of solar cells to improve thier performance. Another [work](https://github.com/google-research/neural-structural-optimization) demonstrated the successful use of CNN to obtain better designs for Structural Optimization.
 This project is an adaptation of their paper and is an extension of their work into the sphere of Non-linear optimization problems, Solar Cell Metallization being one of them.
 
 
@@ -67,6 +67,6 @@ This is a schematic diagram of our optimization process
 - Xarray
 
 ### Useful Links
-- Refer ![dkgupta90/topsol](https://github.com/dkgupta90/topsol) for Matlab implementation of TO for Solar Cell Metallization
-- Refer ![ google-research/neural-structural-optimization ](https://github.com/google-research/neural-structural-optimization) for CNN Reparameterization to solve linear problems like Structural Optimization
+- Refer [dkgupta90/topsol](https://github.com/dkgupta90/topsol) for Matlab implementation of TO for Solar Cell Metallization
+- Refer [ google-research/neural-structural-optimization ](https://github.com/google-research/neural-structural-optimization) for CNN Reparameterization to solve linear problems like Structural Optimization
  
