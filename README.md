@@ -1,4 +1,4 @@
-# Improving Solar Cell Designs using Convolutional Neural Networks
+# Improving Solar Cell Designs using Convolutional Neural Networks (SolarNet)
 
 **Sumit Bhattacharya , Devanshu Arya , Debjani Bhowmick , Rajat Mani Thomas , Deepak Kumar Gupta**
 
@@ -15,11 +15,16 @@ Solar Cell Metallization problem is a non-linear optimization task. It can be fo
 
 We have tried to reparameterize the domain of variables to be optimized. For this, we employed a Convolutional Neural Network (CNN) , to  obtain  density variables as output. Here, we try to optimize the weights and the biases of the CNN , to produce such values of density variables that will give us maximum efficiency (minimum loss).
 
-This is a schematic diagram of our optimization process
+Here is a schematic diagram of our optimization process
 
    
    
    ![Test Image1](https://github.com/BhattacharyaSumit/deeptop/blob/master/Figs/Flow.png)
+   
+ 
+ ### Notebooks 
+ 
+ We have provided all-in-one Jupyter Notebooks for our experiments with SolarNet. For the sake of easy demonstration, we also provide here the notebook for Heat Conduction Problem which, by virtue, is a linear optimization problem.
    
    
 ## Experiments and Resutls
