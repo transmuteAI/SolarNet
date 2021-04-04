@@ -33,10 +33,11 @@ This is a schematic diagram of our optimization process
 
 <table>
    <tr>
-      <td> __Type 1__ </td>
-      <td> __Type 2__ </td>
-      <td> __Type 3__ </td>
-      <td> __Type 4__ </td>
+      <td> ###Model  </td>
+      <td> ###Type 1 </td>
+      <td> ###Type 2 </td>
+      <td> ###Type 3 </td>
+      <td> ###Type 4 </td>
    </tr>
   <tr>
      <td>MMA</td>
