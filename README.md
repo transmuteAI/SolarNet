@@ -2,15 +2,15 @@
 
 **Sumit Bhattacharya , Devanshu Arya , Debjani Bhowmick , Rajat Mani Thomas , Deepak Kumar Gupta**
 
-#### Abstract
+## Abstract
 Topology Optimization (TO) has been a very popular method for optimizing physical structures. This has also been extended to the domains of Heat Flow and Solar Cell design problems. But, the performance is dependent on proper selection of parameters to be optimized. Better designs with better performance have been obtained with the use of Deep Learning in structural optimization. Metallization designs for Solar Cells obtained by topology optimization tend to give good efficiency. However,very limited use of deep learning has been made in optimizing Solar Cell metallization patterns. Here, we present the use of Convolutional Neural Networks (CNN) without any training data to obtain more robust and efficient designs.
 
-#### Motivation
+## Motivation
 Recent works have shown that TO has been successfully applied to find optimal metallization of solar cells to improve thier performance. Another ![work](https://github.com/google-research/neural-structural-optimization) demonstrated the successful use of CNN to obtain better designs for Structural Optimization.
 This project is an adaptation of their paper and is an extension of their work into the sphere of Non-linear optimization problems, Solar Cell Metallization being one of them.
 
 
-#### Method
+## Method
 Solar Cell Metallization problem is a non-linear optimization task. It can be formulated as a minimization task ,with density variable lying between 0 and 1, and no volume constraint. Those densities are then used to compute the loss ( in our case, the loss is negative of output power), which is required to be minimized. Conventionally, the density variables are optimized using algorithms like Method of Moving Asymptote(MMA) and Optimality Criteria(OC). 
 
 We have tried to reparameterize the domain of variables to be optimized. For this, we employed a Convolutional Neural Network (CNN) , to output the density variables. Here, we try to optimize the weights and the biases of the CNN , to produce such values of density variables that will give us maximum efficiency (minimum loss).
@@ -22,7 +22,7 @@ This is a schematic diagram of our optimization process
    ![Test Image1](https://github.com/BhattacharyaSumit/deeptop/blob/master/Figs/Flow.png)
    
    
-#### Experiments and Resutls
+## Experiments and Resutls
    We standardized 4 sets of configurations of a Solar Cell with different settings and compared the performance of MMA and CNN (with LBFGS optimizer) on each.
    We also investigated the effect of Grid Resolution, Filter Radius and Cell Size.
      Type 1 - Vbus at the left edge of the cell
@@ -56,7 +56,7 @@ This is a schematic diagram of our optimization process
   
    These efficiency values are obtained by converting the designs to complete black and white image ( 0 representing no electrode and 1 representing presence of electrode) with a threshold of 0.02. The CNN designs tend to have less grayness compared to the MMA counterparts. So, the actual efficiency values of the CNN designs are higher than those of MMA post processing.
    
-#### Libraries Used
+## Libraries Used
 - Autograd
 - Dataclass
 - Matplotlib
@@ -66,7 +66,7 @@ This is a schematic diagram of our optimization process
 - Tensorflow 2.0
 - Xarray
 
-#### Useful Links
+### Useful Links
 - Refer ![dkgupta90/topsol](https://github.com/dkgupta90/topsol) for Matlab implementation of TO for Solar Cell Metallization
 - Refer ![ google-research/neural-structural-optimization ](https://github.com/google-research/neural-structural-optimization) for CNN Reparameterization to solve linear problems like Structural Optimization
  
