@@ -25,6 +25,7 @@ Here is a schematic diagram of our optimization process
  ### Notebooks 
  
  We have provided all-in-one Jupyter Notebooks for our experiments with SolarNet. For the sake of easy demonstration, we also provide here the notebook for Heat Conduction Problem which, by virtue, is a linear optimization problem.
+All the notebooks were run in Colaboratory.
    
    
 ## Experiments and Resutls
