@@ -26,18 +26,18 @@ This is a schematic diagram of our optimization process
    We standardized 4 sets of configurations of a Solar Cell with different settings and compared the performance of MMA and CNN (with LBFGS optimizer) on each.
    We also investigated the effect of Grid Resolution, Filter Radius and Cell Size.
    
-     Type 1 : Vbus at the left edge of the cell     
-     Type 2 : Vbus at 4 corners of the cell     
-     Type 3 : Vbus at the centre of the cell     
-     Type 4 : Vbus at a portion of the left edge
+     - [x] Type 1 : Vbus at the left edge of the cell     
+     - [x] Type 2 : Vbus at 4 corners of the cell     
+     - [x] Type 3 : Vbus at the centre of the cell     
+     - [x] Type 4 : Vbus at a portion of the left edge
 
 <table>
    <tr>
-      <td> ###Model  </td>
-      <td> ###Type 1 </td>
-      <td> ###Type 2 </td>
-      <td> ###Type 3 </td>
-      <td> ###Type 4 </td>
+      <td> Model  </td>
+      <td> Type 1 </td>
+      <td> Type 2 </td>
+      <td> Type 3 </td>
+      <td> Type 4 </td>
    </tr>
   <tr>
      <td>MMA</td>
