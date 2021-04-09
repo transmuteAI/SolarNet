@@ -1,4 +1,4 @@
-# Improving Solar Cell Designs using Convolutional Neural Networks (SolarNet)
+# SolarNet : Improving Solar Cell Designs using Convolutional Neural Networks 
 
 **Sumit Bhattacharya , Devanshu Arya , Debjani Bhowmick , Rajat Mani Thomas , Deepak Kumar Gupta**
 
